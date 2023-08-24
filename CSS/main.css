@@ -10,6 +10,7 @@ color: white;
 padding-left: 20px;
 padding-right: 20px;
 height: 100%;
+width: 100%;
 margin: 0px;
 font-size: 20px;
 text-align: center;
@@ -43,7 +44,6 @@ padding: 1rem;
    
     .container{
         flex-direction: column;
-        height: 200px;
     }
 
 }
@@ -52,7 +52,16 @@ padding: 1rem;
    
     .container{
         flex-direction: column;
-        height: 200px;
+       
+    }
+    
+}
+
+@media (min-width:688px) and (max-width:768px){
+   
+    .container{
+        flex-direction: column;
+     
     }
     
 }
